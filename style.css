@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #382574;
+    padding: 10px 100px;
+    border-bottom: 2px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+nav div h2{
+    color:red;
+    font-size: 30px;
+
+}
+/*hero area code started*/
+header{
+    background-image: url(images/website\ banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.search-box-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box-icon-parent i{
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-box-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+/*main section code started*/
+main{
+    background-color: #483196;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.latest-vedio-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-vedio-text{
+    font-size: 25px;
+    color: green;
+}
+.latest-pages{
+    color: green;
+}
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.single-item-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:20px;
+    grid-row-gap: 60px;
+    margin-top: 20px;
+}
+.single-item{
+    height:250px;
+    border: 3px solid gray;
+}
+.single-item:hover img{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.single-item img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-item div{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
+}
+/* previous and nest button code started*/
+.previous-nextpage-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-nextpage-parent h3 a{
+    background-color: green;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.previous-nextpage-parent h3 a:hover{
+    background-color: #046604;
+}
+.previous-nextpage-parent a{
+    text-decoration: none;
+    color: white;
+}
+.previous-nextpage-parent div a{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #7e5050;
+}
+.previous-nextpage-parent div a:first-child{
+    background-color: green;
+    color: white;
+}
+/*footer section code started*/
+footer{
+    background-color: #b34c88;
+}
+.footer-container{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+    color: white;
+}
+.footer-frist-item h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.footer-frist-item:first-child p{
+    margin-bottom: 50px;
+}
+.footer-second-item h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.footer-second-item a{
+    text-decoration: none;
+    color: white;
+}
+.footer-second-item p{
+    margin-bottom: 10px;
+}
+.you-tube{
+    margin-top: 30px;
+}
+.footer-third-item div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.footer-third-item div a{
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #483196;
+    border-radius: 3px;
+}
+.footer-third-item p{
+    margin-bottom: 10px;
+}
+.footer-third-item p:nth-child(3){
+    margin-bottom: 40px;
+}
